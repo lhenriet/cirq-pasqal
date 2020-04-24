@@ -1,2 +1,2 @@
 # cirq-pasqal-notebook
-Tutorial for working with Pasqal classes in cirq
+Tutorials and documentation for working with Pasqal classes in cirq
