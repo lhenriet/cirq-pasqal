@@ -1,4 +1,4 @@
-# cirq-pasqal-notebook
+# Cirq-pasqal integration
 Tutorials and documentation for working with Pasqal classes in cirq
 
 1) Documentation can be found in the pasqal-doc folder
