@@ -36,7 +36,8 @@ Any gate appended to a `cirq.Circuit` associated with `PasqalDevice` that is not
 
 ### Measurement limitation
 
-The other restriction is on the measurement operation, which has to occur on all the qubits and at the end of the circuit. This means that it should correspond to a single `cirq.ops.Operation` with a `cirq.ops.MeasurementGate` applied on all the qubits in the device.
+The other restriction is on the measurement operation, which has to occur on all the qubits and at the end of the circuit. This means that it should correspond to a single `cirq.ops.GateOperation` with a `cirq.ops.MeasurementGate` applied on all the qubits in the device, which is easily obtained through the `cirq.measure(*qubits)` where `qubits` should be a `list`or `tuple`
+of all the device's qubits.
 
 ### Usage
 
